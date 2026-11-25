@@ -3,6 +3,8 @@ name: cloudflare-ops
 description: Deploy a Worker to a custom domain, manage DNS/WAF/zone settings, and audit a Cloudflare zone's security. Use when publishing to Cloudflare, restricting access by IP, touching DNS records, or when the user asks "is my Cloudflare clean/secure".
 ---
 
+> Install and prefer Cloudflare's official skills first (see `platform-official-skills`); this skill only adds cross-cutting operating rules.
+
 # Cloudflare operations — lessons learned
 
 ## Pick the right tool
