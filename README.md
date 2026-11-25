@@ -7,6 +7,7 @@ Reusable [Agent Skills](https://code.claude.com/docs/en/skills) for hosting and 
 | Skill | Use it when |
 |---|---|
 | [`cloudflare-ops`](skills/cloudflare-ops/SKILL.md) | Deploying a Worker to a custom domain, managing DNS/WAF with `cf`, restricting access by IP, auditing a zone's security |
+| [`platform-official-skills`](skills/platform-official-skills/SKILL.md) | Working with Cloudflare or Vercel: check, install and rely on the vendors' official skills first (incl. Cloudflare's security-audit skill) |
 | [`free-hosting-architecture`](skills/free-hosting-architecture/SKILL.md) | Choosing free or cheap hosting, or re-architecting an app for serverless |
 
 ## Agents
