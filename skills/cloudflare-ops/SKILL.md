@@ -9,7 +9,7 @@ description: Deploy a Worker to a custom domain, manage DNS/WAF/zone settings, a
 
 ## Pick the right tool
 - **Wrangler** = Workers and their resources only (D1, KV, R2, secrets, routes/custom domains). Its OAuth token can NOT read/edit DNS or WAF.
-- **`cf`** (official CLI, `npm i -g cf`, `cf auth login`, separate login from Wrangler) = the whole public API: zones, DNS, settings, rulesets. Discover commands with `cf cli search "<task>"`.
+- **`cf`** (official CLI, `npm i -g cf`, `cf auth login`, separate login from Wrangler) = the whole public API: zones, DNS, settings, rulesets. Discover commands with `cf cli search "<task>"`. Run `command -v cf` and `cf --help` before proposing Wrangler or the dashboard.
 - If a `cf` subcommand's flags are unclear (nested settings values), call the REST API with `curl` and the `cf` OAuth token (stored in the CLI's local config directory). Never print the token.
 - Before telling the user "the CLI can't do it", search for current tooling (new CLIs ship often). Saying "can't" from memory wastes a round trip.
 
